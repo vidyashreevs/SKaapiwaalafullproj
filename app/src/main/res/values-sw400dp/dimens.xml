@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="campaign_textfontsize">18sp</dimen>
+    <dimen name="mastertoday">12sp</dimen>
+    <dimen name="dwnldbtn">16sp</dimen>
+
+    <dimen name="campaign2">13sp</dimen>
+    <dimen name="rsbbtn">18sp</dimen>
+    <dimen name="buton_size">15sp</dimen>
+    <dimen name="heading">20sp</dimen>
+    <dimen name="savelogin">25sp</dimen>
+    <dimen name="url">15sp</dimen>
+    <dimen name="scroll_height">800dp</dimen>
+    <dimen name="scroll_width">510dp</dimen>
+
+</resources>

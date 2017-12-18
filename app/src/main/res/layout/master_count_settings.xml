@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+
+    <LinearLayout
+        android:id="@+id/lcon"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:background="@drawable/kaapiwala_tab"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.4" />
+
+        <TextView
+            android:id="@+id/TextViewmaster"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:ems="10"
+            android:gravity="center_vertical|right"
+            android:text="MASTER COUNT"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/heading"
+            android:textStyle="bold"
+
+            android:visibility="visible" />
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.4" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:weightSum="10"
+        android:background="@drawable/options_background02"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:id="@+id/btnoption"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_tab"
+                android:textSize="@dimen/mastertoday"
+                android:text="OPTION"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnhalf"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_tab"
+                android:textSize="@dimen/mastertoday"
+                android:text="TOTAL(HALF CUP)"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnfull"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_tab"
+                android:text="TOTAL(FULL CUP)"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="@dimen/mastertoday"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnbc"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_display_tab"
+                android:text="BLACK COFFEE"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/campaign2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etblackcofeehalf"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:textSize="@dimen/campaign2"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:maxLength="6"
+                />
+            <EditText
+                android:id="@+id/etblackcofeefull"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:maxLength="6"
+                android:textSize="@dimen/campaign2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnsc"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_display_tab"
+                android:text="STRONG COFFEE"
+                android:textSize="@dimen/campaign2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etstrongcofeehalf"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textColor="#000"
+                android:maxLength="6"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+
+            <EditText
+                android:id="@+id/etstrongcofeefull"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:maxLength="6"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btncoffee"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_display_tab"
+                android:textSize="@dimen/campaign2"
+                android:text=" COFFEE"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etcofeehalf"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:maxLength="6"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+
+            <EditText
+                android:id="@+id/etcofeefull"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:maxLength="6"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnblacktea"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_display_tab"
+                android:text="BLACK TEA"
+                android:textSize="@dimen/campaign2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etblackteahalf"
+                android:layout_width="0dp"
+                android:maxLength="6"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+            <EditText
+                android:id="@+id/etblackteafull"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:maxLength="6"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnstrongtea"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_display_tab"
+                android:text="STRONG TEA"
+                android:textSize="@dimen/campaign2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/estrongteahalf"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"
+                android:maxLength="6"/>
+            <EditText
+                android:id="@+id/etstrongteafull"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:maxLength="6"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btntea"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_display_tab"
+                android:text="TEA"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/campaign2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etteahalf"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:maxLength="6"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+            <EditText
+                android:id="@+id/etteafull"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:maxLength="6"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnmilk"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_display_tab"
+                android:text="MILK"
+                android:textSize="@dimen/campaign2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etmilkhalf"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:maxLength="6"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+            <EditText
+                android:id="@+id/etmilkfull"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"
+                android:maxLength="6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnhotwater"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_display_tab"
+                android:text="HOT WATER"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/campaign2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ethotwaterhalf"
+                android:layout_width="0dp"
+                android:maxLength="6"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+
+            <EditText
+                android:id="@+id/ethotwaterfull"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:maxLength="6"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/total"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/options_display_tab"
+                android:text="TOTAL"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/campaign2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/totalhalf"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+
+            <TextView
+                android:id="@+id/totalfull"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/display_tab"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="#000"
+                android:inputType="number"
+                android:textSize="@dimen/campaign2"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_weight="2.2"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_weight="2.5"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonback"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="25dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/readsetback"
+                android:text="BACK"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/rsbbtn"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_weight="2.5"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_weight="2.5"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:id="@+id/lcon"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:background="@drawable/kaapiwala_tab"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+    _________________________
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.6"
+        android:orientation="vertical"
+        android:weightSum="13.6">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/day1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.8"
+                android:background="@drawable/options_background01"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Day 1"
+                android:textSize="@dimen/campaign_textfontsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2" />
+
+
+            <Button
+                android:id="@+id/e1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Erase"
+                android:background="@drawable/optbck1"
+                android:textSize="@dimen/url"
+                android:textStyle="bold"
+
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/day2"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.8"
+                android:background="@drawable/options_background01"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Day 2"
+                android:textSize="@dimen/campaign_textfontsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2" />
+
+
+            <Button
+                android:id="@+id/e2"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Erase"
+                android:background="@drawable/optbck1"
+                android:textSize="@dimen/url"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/day3"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.8"
+                android:background="@drawable/options_background01"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Day 3"
+                android:textSize="@dimen/campaign_textfontsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2" />
+
+
+            <Button
+                android:id="@+id/e3"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Erase"
+                android:background="@drawable/optbck1"
+                android:textSize="@dimen/url"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="3"></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/day4"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.8"
+                android:background="@drawable/options_background01"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Day 4"
+                android:textSize="@dimen/campaign_textfontsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2" />
+
+
+            <Button
+                android:id="@+id/e4"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Erase"
+                android:background="@drawable/optbck1"
+                android:textSize="@dimen/url"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="3">
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/day5"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.8"
+                android:background="@drawable/options_background01"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Day 5"
+                android:textSize="@dimen/campaign_textfontsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2" />
+
+
+            <Button
+                android:id="@+id/e5"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Erase"
+                android:background="@drawable/optbck1"
+                android:textSize="@dimen/url"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="3">
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/day6"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.8"
+                android:background="@drawable/options_background01"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Day 6"
+                android:textSize="@dimen/campaign_textfontsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2" />
+
+
+            <Button
+                android:id="@+id/e6"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Erase"
+                android:background="@drawable/optbck1"
+                android:textSize="@dimen/url"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="3">
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/day7"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.8"
+                android:background="@drawable/options_background01"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Day 7"
+                android:textSize="@dimen/campaign_textfontsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2" />
+
+
+            <Button
+                android:id="@+id/e7"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Erase"
+                android:background="@drawable/optbck1"
+                android:textSize="@dimen/url"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+        //////////////
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="3">
+        </LinearLayout>
+////////////////////////////
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/masterad"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.8"
+                android:background="@drawable/options_background01"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Master all data"
+                android:textSize="@dimen/campaign_textfontsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2" />
+
+
+            <Button
+                android:id="@+id/e11"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Erase"
+                android:background="@drawable/optbck1"
+                android:textSize="@dimen/url"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+
+        /////////////////////////////
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="3">
+        </LinearLayout>
+
+        ///////////////////////////////////////////////
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/allday"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.8"
+                android:background="@drawable/options_background01"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="All days data"
+                android:textSize="@dimen/campaign_textfontsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2" />
+
+
+            <Button
+                android:id="@+id/e12"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Erase"
+                android:background="@drawable/optbck1"
+                android:textSize="@dimen/url"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+////////////////////////
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="3">
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/all"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.8"
+                android:background="@drawable/options_background01"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Erase All"
+                android:textSize="@dimen/campaign_textfontsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2" />
+
+
+            <Button
+                android:id="@+id/eall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Erase"
+                android:background="@drawable/optbck1"
+                android:textSize="@dimen/url"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="3">
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
